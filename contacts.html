@@ -4,39 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Contacts</title>
   </head>
   <body>
-    <ul>
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <h2 class="heading-contact">Contact Us</h2>
+    <div class="container">
+      <ul class="header">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="contacts-header">
+      <div class="container">
+        <h2 class="heading-contact">Contact Us</h2>
         <p class="text">Lorem ipsum</p>
-        <form action="#">
-        <img src="https://netlify-photo-gallery.netlify.app/images/apple3.jpg?nf_resize=smartcrop&w=300&h=300"
+      </div>
+    </div>
+    <form action="#" class="main container">
+      <div class="contacts-info">
+        <img
+          src="https://netlify-photo-gallery.netlify.app/images/apple3.jpg?nf_resize=smartcrop&w=300&h=300"
           alt="photo"
         />
-        <h4>Address</h4>
-        <p>Lorem</p>
-        <h4 >Phone</h4>
+        <h4 class="heading-mini">Address</h4>
+        <p class="text">Lorem</p>
+        <h4 class="heading-mini">Phone</h4>
         <ul>
           <li>8-952-5858-858</li>
           <li>8-54744-554</li>
         </ul>
-        <h4>Online service</h4>
+        <h4 class="heading-mini">Online service</h4>
         <ul>
           <li><a href="mailto:insertemailhere@xyz.com">Email</a></li>
           <li><a href="https://www.google.com">Наш сайт</a></li>
         </ul>
-        <h4>Send us message</h4>
-        FullName<input class="input-text" type="text" /> <br />
-        Email<input class="input-text" type="email" /> <br />
-        Message <textarea class="input-text" rows="10" cols="30" name="text"></textarea> <br />
-        <button class="button-submit" type="submit">Submit</button>
-      </form>
-  
+      </div>
+      <h4 class="heading-mini">Send us message</h4>
+      FullName<input class="input-text" type="text" /> <br />
+      Email<input class="input-text" type="email" /> <br />
+      Message
+      <textarea class="input-text" rows="10" cols="30" name="text"></textarea>
+      <br />
+      <button class="button-submit" type="submit">Submit</button>
+    </form>
+
     <div class="container">
       <script
         type="text/javascript"
@@ -44,16 +55,29 @@
         async
         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab38549242c6792b282b601ddb75ddc68efa8864bf8ca1177dbf3c528f7d74a75&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
       ></script>
-      <h3 class="heading">Подзаголовок4</h3>
-      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <h3 class="heading">Подзаголовок4</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
       <hr />
-      <ul>
-        <li>Lorem ipsum dolor sit ametulugu</li>
-        <li>+7-812-7313-4321</li>
-        <li>hello.site@gmail.com</li>
-      </ul>
-      <p class="text">Все права защищены &copy;</p>
-
-
+      <div class="container">
+        <div class="footer__bottom">
+          <ul class="footer__info">
+            <li>Lorem ipsum dolor sit ametulugu</li>
+            <li>+7-812-7313-4321</li>
+            <li>hello.site@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footer__copy">
+          <p class="text">Все права защищены &copy;</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
