@@ -20,7 +20,7 @@
         <p class="text">Lorem ipsum</p>
       </div>
     </div>
-    <form action="#" class="main container">
+    <main action="#" class="main container">
       <div class="contacts-info">
         <img
           src="https://netlify-photo-gallery.netlify.app/images/apple3.jpg?nf_resize=smartcrop&w=300&h=300"
@@ -39,14 +39,18 @@
           <li><a href="https://www.google.com">Наш сайт</a></li>
         </ul>
       </div>
-      <h4 class="heading-mini">Send us message</h4>
-      FullName<input class="input-text" type="text" /> <br />
-      Email<input class="input-text" type="email" /> <br />
-      Message
-      <textarea class="input-text" rows="10" cols="30" name="text"></textarea>
-      <br />
-      <button class="button-submit" type="submit">Submit</button>
-    </form>
+      <form action="#" class="form">
+        <h4 class="heading-mini">Send us message</h4>
+        <label for="name">FullName</label>
+        <input class="input-text" id="name" type="text" />
+        <label for="email">Email</label>
+        <input id="email" class="input-text" type="email" />
+        <label for="email">Message</label>
+        <textarea id="email" name="text"></textarea>
+        <br />
+        <button class="button-submit" type="submit">Submit</button>
+      </form>
+    </main>
 
     <div class="container">
       <script
