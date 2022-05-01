@@ -1,0 +1,224 @@
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .contacts-header {
+    background-size: auto;
+    background-position: center;
+    margin-top: 46px;
+  }
+  .form {
+    width: 520px;
+  }
+  .contact__image {
+    padding: 24px 0;
+  }
+  .contacts-info {
+    margin-bottom: 64px;
+  }
+  .footer > .container {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+  .top__info {
+    background-size: 50%;
+    background-position: right bottom;
+  }
+  .card-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    padding: 40px 30px;
+    margin-bottom: 32px;
+  }
+  .what-we-do {
+    padding-top: 48px;
+  }
+  .footer {
+    padding-top: 47px;
+    margin-top: 64px;
+  }
+  .footer__button {
+    padding: 3px 30px;
+  }
+  .footer__top {
+    padding-bottom: 64px;
+  }
+  .footer__text {
+    max-width: 340px;
+  }
+  .footer__info {
+    flex-direction: column;
+  }
+
+  .footer__list {
+    margin-bottom: 26px;
+  }
+  .footer__list:nth-child(n):before {
+    padding-right: 45px;
+  }
+  .footer__list:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 667px) {
+  .top {
+    min-height: 376px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+
+  .form {
+    width: calc(100% - 32px);
+    padding: 36px;
+    margin: 0 16px;
+  }
+  .form > .heading-contact-mini {
+    font-size: 16px;
+  }
+  .button-submit {
+    padding: 12px;
+    margin-top: 46px;
+  }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .footer > .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .footer {
+    margin-top: 64px;
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+  .footer__top {
+    flex-direction: column;
+    padding-bottom: 41px;
+  }
+  .footer__list:nth-child(n):before {
+    padding-right: 23px;
+  }
+  .footer__bottom {
+    padding: 32px 0;
+  }
+  .heading__footer {
+    margin: 0 auto 32px;
+
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .heading-contact {
+    font-size: 24px;
+    padding-bottom: 32px;
+    line-height: 28px;
+  }
+  .heading-contact-mini {
+    margin-top: 32px;
+  }
+  .contact_text {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .contacts-info {
+    margin-bottom: 32px;
+  }
+  .footer__text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .footer__copy {
+    text-align: center;
+  }
+  .card-box {
+    padding-top: 32px;
+  }
+  .card {
+    width: 100%;
+    padding-bottom: 21px;
+  }
+  .container-mini {
+    margin-bottom: -32px;
+  }
+  .header {
+    padding-top: 21px;
+  }
+  .top__info {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .project__parent {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .project__item_margin {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .main {
+    padding-top: 24px;
+    margin-bottom: 32px;
+  }
+  .long {
+    top: 16px;
+    right: 16px;
+  }
+  .input-text {
+    height: 46px;
+  }
+  .input-lable {
+    margin-top: 21px;
+    margin-bottom: 0;
+  }
+  .input-text.big {
+    height: 92px;
+  }
+  .short {
+    top: 16px;
+    left: 16px;
+  }
+  .heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .heading-top {
+    padding-top: 33px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .top__info > .text {
+    width: 100%;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .top__button {
+    margin-top: 32px;
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+  .what-we-do {
+    padding-bottom: 32px;
+  }
+}
